@@ -1,0 +1,257 @@
+/**
+* ? Changing default style of the browser
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/**
+* ? navbar styling
+**/
+.navcover {
+    background: aliceblue;
+    padding: 1%;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-bottom: 30px;
+}
+
+.navcover2 {
+    background: aliceblue;
+    padding: 1%;
+    box-shadow: 2px 2px 2px 2px black;
+    /* border-radius: 150px 0 150px 0; */
+}
+
+.navbar {
+    background: #2f3e46;
+    color: aliceblue;
+    padding: 25px 60px;
+    display: flex;
+    align-items: center;
+    font-display: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px black;
+    border: 1px solid red;
+    text-shadow: 2px 2px 2px black;
+    /* border-radius: 0px 150px 0 150px; */
+}
+.navbar>h2{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.cart {
+    position: relative;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 30px;
+    background-color: #2f3e46;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.cartAmount {
+    position: absolute;
+    background:red;
+    top: -17px;
+    right: -12px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 3px;
+    height: 30px;
+}
+
+/**
+* ? shop items styles
+**/
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    top: -27px;
+    margin-bottom: 50px;
+
+}
+@media (max-width: 1000px){
+    .shop{
+        grid-template-columns: repeat(3, 223px); 
+    }
+}
+@media (max-width: 800px){
+    .shop{
+        grid-template-columns: repeat(2, 223px); 
+    }
+}
+@media (max-width: 600px){
+    .shop{
+        grid-template-columns: repeat(1, 223px); 
+    }
+}
+.itemcover{
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px 2px black;
+    position: relative;
+    top: 30px;
+}
+.itemcover2{
+    box-shadow: 1px 1px 10px 1px black;
+    padding: 8px;
+}
+.itemcover3{
+    box-shadow: 1px 1px 10px 1px black;
+}
+ .item>img{
+    border: 0px solid black;
+    width: 100%;
+} 
+.details{
+   display: flex; 
+   flex-direction: column;
+   padding: 10px;
+   gap: 10px;
+}
+.price-quantity{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;  /*works on the y axis */
+    align-items: center;   /*works on the x axis */
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+}
+.bi-dash-lg{
+    color: red;
+}
+.bi-plus-lg{
+    color: green;
+}
+
+/**
+*  ! styles rules for label and some buttons
+**/
+
+.text-center{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.HomeBtn,
+.checkout 
+.removeAll{
+    background-color:  #212529;
+    color: aliceblue;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.checkout{
+  background-color: green;
+  border: 4px inset green;
+  color: white;
+}
+.removeAll{
+    background-color: red;
+    border: 4px inset red;
+    color: white;
+}
+.bi-x-lg{
+    color: red;
+    font-weight: bold;
+}
+
+/**
+* ! style rules for shopping-cart
+**/
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1,320px);
+    gap: 15px;
+    width: 340px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 2px black;
+    background: aliceblue;
+}
+/**
+* ! style rules for cart item
+**/
+.cover{
+    padding: 10px;
+    width: 360px;
+    position: relative;
+    left: 37%;
+    box-shadow: 2px 2px 2px 2px black;
+    background-color: aliceblue;
+}
+.cart-item{
+    grid-template-columns: repeat(1,320);
+    display: flex;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.title-price-x {
+    /* border: 1px solid black; */
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cart-item-price{
+    background-color: black;
+    color: aliceblue;
+    padding: 3px 5px;
+}
+
+
+.product {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: black;
+    outline: none;
+  }
+  
+  .heart-btn.liked {
+    color: red;
+  }
+  
+
