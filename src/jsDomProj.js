@@ -109,3 +109,18 @@ function toggleLike() {
 }
 
 
+let sliderInner = document.getElementsByClassName('slider-cover');
+let everything = document.getElementById('everything')
+let nxtBtn = document.getElementById('nxt-btn');
+let preBtn = document.getElementById('pre-btn');
+
+
+    preBtn.addEventListener('click',() => {
+        everything.scrollLeft -= 125;
+    });
+
+    nxtBtn.addEventListener('click',() => {
+       everything.scrollLeft += 125;
+    });
+
+
