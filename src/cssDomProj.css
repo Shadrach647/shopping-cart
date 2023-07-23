@@ -539,3 +539,75 @@ a{
      margin-right: 30px;
      z-index: 3;
  }
+
+ .signupcover{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 469%;
+    background-color:rgb(232, 16, 16);
+ }
+ .header2{
+    text-align: center;
+     text-shadow: 2px 2px 2px black;
+     color: red;
+     padding: 5px;
+     z-index: 9;
+     font-size: 20px;
+     padding-top: 27px;
+ }
+  .container{
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    align-items: end;
+    box-shadow: 2px 2px 2px 2px black;
+    width: 50%;
+    position: relative;
+    left: 340px;
+    top: 30px;
+    background-color: aliceblue;
+  }
+  form{
+    margin: 10px;
+  }
+  label{
+    margin: 10px;
+    font-weight: 500;
+  }
+  input{
+    width: 50%;
+    background-color: aliceblue;
+    border: 2px inset black;
+    height: 30px;
+  }
+  select,
+  option{
+    width: 53%;
+    position: relative;
+    top: 0px;
+    background-color: aliceblue;
+    border: 2px inset black;
+    height: 30px;
+  }
+  /* value{
+    background-color:red;
+  } */
+  textarea{
+    position:relative;
+    bottom: -10px;
+    background-color: aliceblue;
+    border: 2px inset black;
+    height: 30px;
+  }
+  .submit{
+    width: 104.0%;
+    position: relative;
+    left: -12px;
+    height: 30px;
+    bottom: -1px;
+    background-color: red;
+    border: 2px solid black;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+  }
