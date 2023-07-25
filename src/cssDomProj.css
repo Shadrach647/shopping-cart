@@ -52,11 +52,53 @@ a{
     text-shadow: 2px 2px 2px black;
     /* border-radius: 0px 150px 0 150px; */
 }
-.navbar>h2{
+.navbar>a h2{
     position: relative;
-    top: 10px;
-    font-size: 30px;
+    top: 3px;
+    font-size: 22px;
+    z-index: 11;
+    width: 230px;
+    left: 30px;
+}
+
+
+.navbar>.Div{
+    width: 85%;
+    height: 50px;
+    margin-left: 90px;
+    position: relative;
+    top: -3px;
+    left: 1cqh;
+}
+ ul li{
+    display: inline;
+    padding: 5px;
+    width: fit-content;
+    margin: 50px;
+    color: aliceblue;
+    position: relative;
+    top: 20px;
+    z-index: 10;
+}
+/* li{
+    position: relative;
+    top: -10px;
+} */
+ ul li a{
+    color: black;
+    text-decoration: none;
+    text-decoration: solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+    font-size: small; 
+    color: aliceblue; 
+}
+ ul li:hover{
+    border: 1px inset red;
+    background-color: #2f3e46;
+    height: 50px;
     box-shadow: 2px 2px 2px 2px black;
+    padding: 10px;  
 }
 
 .cart {
@@ -116,6 +158,7 @@ a{
     box-shadow: 2px 2px 5px 2px black;
     position: relative;
     top: 30px;
+    height: fit-content;
 }
 .itemcover2{
     box-shadow: 1px 1px 10px 1px black;
@@ -152,6 +195,22 @@ a{
 }
 .bi-plus-lg{
     color: green;
+}
+.feature{
+    position: absolute;
+    top: 1190px;
+    left: 40%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+}
+.latest{
+    position: absolute;
+    top: 1750px;
+    left: 40%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
 }
 
 /**
@@ -369,7 +428,7 @@ a{
     background-color: white;
     line-height: 20px;
     position:absolute;
-    top: 2090px;
+    top: 2890px;
  }
  .header{
      font-size: 40px;
@@ -443,7 +502,7 @@ a{
      width: 100%;
      height: 130%;
      font-size: 16px;
-     margin-left: 5px;
+     margin-left: 10px;
      margin-top: 5px;
      font-family: Arial, Helvetica, sans-serif;
      font-weight: 150px;
@@ -544,7 +603,7 @@ a{
     width: 100%;
     height: 400px;
     position: absolute;
-    top: 469%;
+    top: 607%;
     background-color:rgb(232, 16, 16);
  }
  .header2{
@@ -573,7 +632,7 @@ a{
   }
   label{
     margin: 10px;
-    font-weight: 500;
+    font-weight: 400;
   }
   input{
     width: 50%;
@@ -605,9 +664,153 @@ a{
     position: relative;
     left: -12px;
     height: 30px;
-    bottom: -1px;
+    bottom: -3px;
     background-color: red;
     border: 2px solid black;
     color: aliceblue;
     text-shadow: 2px 2px 2px black;
   }
+
+  .svgfooter{
+    position: relative;
+    width: 100%;
+    top: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 225px);
+  }
+
+  .custom-shape-divider-top-1690278112 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 115%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #2f3e46;
+}
+
+.custom-shape-divider-top-1690278112 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 212px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1690278112 .shape-fill {
+    fill: aliceblue;
+}
+.imgdiv2{
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+.divcover2{
+    position: relative;
+    left: 650px;
+    top: 22px;
+    padding-top: 20px;
+    border: 1px solid black;
+    width: 300px ;
+    height: 450px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.div1{
+    border: 1px inset black;
+}
+.div1>h3{
+    font-size: 16px;
+}
+.div1>p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.div1>img{
+    width: 160px;
+}
+
+.div2{
+    border: 1px inset black;
+    margin-top: 10px;
+}
+.div2>h3{
+    font-size: 17px;
+}
+.div2>.unordered{
+    font-size: 16px;
+    position: relative;
+    top: -20px;
+    left: 105px;
+}
+.div2>.unordered:hover{
+    border: none;
+    background-color: none;
+}
+
+.div2>.unordered li{
+    font-size: 14px;
+    display: block;
+    padding: 0;
+    margin: 3px;
+}
+.unordered li:hover{
+    height: 30px;
+    width: 100%;
+    position: relative;
+    left: -113px;
+    padding: 3px;
+    border: 1px inset aliceblue;
+}
+
+.div3{
+    border: 1px inset black;
+    margin-top: 10px;
+}
+.div3>h3{
+    font-size: 17px;
+}
+.div3>.unordered1{
+    font-size: 16px;
+    position: relative;
+    top: -20px;
+    border: none;
+    left: 105px;
+}
+
+.div3>.unordered1 li{
+    font-size: 14px;
+    display: block;
+    padding: 0;
+    margin: 3px;
+}
+.unordered1 li:hover{
+    height: 30px;
+    width: 100%;
+    position: relative;
+    left: -113px;
+    padding: 3px;
+    border: 1px inset aliceblue;
+}
+ i{
+    margin: 3px;
+}
+.copy{
+    width: 100%;
+    border: 2px solid black;
+    z-index: 4;
+    position: relative;
+    top: 940px;
+     height: 50px;
+     box-shadow: 2px 2px 2px 2px black;
+     color: aliceblue;
+}
+.copy>p{
+    text-align: center;
+}
+.copy>.emptydiv{
+    background-color: skyblue;
+    width: 100%;
+    height: 25px;
+}
