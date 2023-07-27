@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="src/cssDomProj.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <style>
+        .footer-a{
+            position: absolute;
+            top: 670px;
+        }
+        .svgfooter{
+            position: relative;
+            top: 310px;
+        }
+        .copy{
+            position: relative;
+            top: 370px;
+        }
+        .signupcover{
+            position: relative;
+            top: -25px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+
+<div class="signupcover">
+    <div class="header2">
+    <h1> Please Contact Us </h1>
+    </div>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <br>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+           <br>
+
+           <label for="email">E-mail</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..">
+           <br>
+
+           <label for="pnumber">Phone Number</label>
+          <input type="number" id="pnumber" name="pnumber" placeholder="Your phone number..">
+           <br>
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <br>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="width:370px"></textarea>
+          <br>
+      
+          <input class="submit" type="submit" value="Submit">
+      
+        </form>
+      </div>
+</div>   
+
+
+
+<div id="footer-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="src/Data2.js"></script>
+<script src="src/jsDomProj2.js"></script>
+</body>
+</html>
