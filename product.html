@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="src/cssDomProj.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .footer-a{
+            position: absolute;
+            top: 2130px;
+        }
+        .svgfooter{
+            position: relative;
+            top: 410px;
+        }
+        .copy{
+            position: relative;
+            top: 470px;
+        }
+        .shop{
+            position: relative;
+            top: 20px;
+            height: fit-content;
+        }
+        .itemcover{
+            position: relative;
+            top: 80px;
+            margin-bottom: 0;
+        }
+        .itemcover2{
+            margin-bottom: 0;
+        }
+
+        .itemcover3{
+            margin-bottom: 0;
+        }
+        .feature{
+            position: relative;
+            top: -1805px;
+            left: 9%;
+            z-index: 10;
+            align-items: center;
+            font-size: 30px;
+        }
+        #sorting{
+            position: relative;
+            top: -1837px;
+            right: -66.2%;
+            width: 25%;
+            z-index: 10;
+            text-align: center;
+        }
+            
+    
+    </style>
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+
+    
+<div id="carting-placeholder">
+
+</div>
+
+
+
+<div class="shop" id="shop">
+    
+</div>
+<h1 class="feature">Products</h1>
+<select name="sorting" id="sorting">
+    <option value="">Default Sorting</option>
+    <option value="">Sort by Popularity</option>
+    <option value="">Sort by Price</option>
+    <option value="">Sort by Ratings</option>
+    <option value="">Sort by Sales</option>
+</select>
+
+ 
+
+    
+
+
+
+
+<div id="footer-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+
+    
+<script src="src/Data2.js"></script>
+<script src="src/jsDomProj2.js"></script>
+</body>
+</html>
